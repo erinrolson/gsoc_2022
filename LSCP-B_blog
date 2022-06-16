@@ -1,2 +1,15 @@
 News references:
 https://www.bbc.com/news/health-61791151
+
+Week 1:
+-combed through spopt to learn how Germano implemented LSCP.
+-used his code as a framework for learning to solve LSCP-B
+-started to dev the solving of backup coverage location problem
+
+Week 2:
+-met with spopt mentors (Qunshan Zhao, James Baboardi, Levi Wolf) + Germano Barcelos
+-walked through notebook progress and received feedback on next steps for implementation
+  -push notebook to github & continue to do so before all meetings
+  -update notebook to solve for LSCP first and use the result to solve for backup coverage (p from LSCP solution will be used for the minimum number of facilities required for backup coverage)
+  -consider additional parameters such as the minimum amount of backup coverage needed for demand nodes and supply & demand
+-start doing all work via github
