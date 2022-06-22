@@ -13,3 +13,11 @@ Week 2:
   -update notebook to solve for LSCP first and use the result to solve for backup coverage (p from LSCP solution will be used for the minimum number of facilities required for backup coverage)
   -consider additional parameters such as the minimum amount of backup coverage needed for demand nodes and supply & demand
 -start doing all work via github
+
+Week 3:
+-met with spopt mentors (Qunshan Zhao, Levi Wolf)
+-reviewed progress on LSCPB class
+    -need to remove add_backup_covering_constraint() from base.py and implement in LSCPB class
+    -create LSCP obj witihin LSCPB, solve LSCP, use LSCP.problem.objective.value() to define LSCPB constraint
+    -implement from_geodataframe method
+    -make pull request to spopt package once finished
