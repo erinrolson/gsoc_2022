@@ -1,0 +1,23 @@
+Step 1: 
+
+The following commands create a new environment with the name geo_env, configures it to install packages always from conda-forge, and installs GeoPandas in it:
+
+conda create -n geo_env
+conda activate geo_env
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install python=3 geopandas
+
+Step 2:
+
+Go to 'top' of user directory tree and install local editable version of spopt
+
+cd ~
+pip install -e ./spopt
+
+Step 3: (will also install coverage)
+
+conda install codecov
+conda install pytest
+conda install pytest-cov
+conda install pytest-xdist
